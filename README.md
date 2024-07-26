@@ -29,6 +29,20 @@ Efetuar um conjunto de testes manuais que verifiquem a funcionalidade básica do
     - Inscrever um estudante em um curso existente. 
     - Tentar inscrever um estudante em um curso inexistente. 
     
-Dicas: Documentar via Gherkin (BDD) Evidenciar com imagens e/ou vídeos 
+Dicas: Documentar via Gherkin (BDD) Evidenciar com imagens e/ou vídeos
+
+## Selenium
+
+[Selenium automates browsers](https://www.selenium.dev/)
+
+## Cypress
+
+[Cypress: Test. Automate. Accelerate.](https://www.cypress.io/)
+
+Cypress bundles the popular Chai assertion library, as well as helpful extensions for Sinon and jQuery, bringing you dozens of powerful assertions for free.
+
+[Assertions](https://docs.cypress.io/guides/references/assertions)
+
+
 
 https://cucumber.io/docs/gherkin/
