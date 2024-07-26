@@ -7,7 +7,7 @@ Para resolve-lo você deverá utilizar o site https://sandbox.moodledemo.net/log
 ## Objetivo: 
 Efetuar um conjunto de testes manuais que verifiquem a funcionalidade básica do Moodle Sandbox, focando em testar as interações críticas para a experiência do usuário. 
 
-## Teste 1: Login e Logout
+## Teste 1: Login, falha de login e Logout
 
 - Descrição: Validar e documentar com Gherkin o processo de login e logout usando um dos usuários de teste fornecidos pela sandbox. 
 - Cenários: 
