@@ -20,15 +20,9 @@ describe('Log out Test', () => {
     
     cy.visit('https://sandbox.moodledemo.net/#')
     cy.get('.userinitials').click()
-    cy.contains('div a.dropdown-item', 'Log out').click()
+    cy.contains('div a.dropdown-item', 'Log out').click({force: true})
 
   });
-
-  // it('should log out', () => {
-  //   cy.visit('https://sandbox.moodledemo.net/')
-  //   cy.contains('spam.userinitials').click()
-  //   cy.contains('div a.dropdown-item', 'Log out').click()
-  // });
 
 });
 

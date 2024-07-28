@@ -15,11 +15,7 @@ describe('Login Test', () => {
       // Encontrar e clicar no botão de login
       cy.get('#loginbtn').click();
 
-      cy.get('.last > .info > .coursename > .aalink').click();
-
-      cy.get('[data-key="participants"] > .nav-link').click();
-
-      cy.get('#enrolusersbutton-1 > div > .btn').click();
+      // Não tem como adicionar um Student se não selecionar Available courses anteriormente
         
     });
   

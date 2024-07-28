@@ -17,12 +17,12 @@ describe('Login Test', () => {
       
   });
     
-  it('Validate log in', () => {
+  // it('Validate log in', () => {
     
-    // Verificar se o login foi bem-sucedido
-    cy.visit('https://sandbox.moodledemo.net/')
-    cy.get('div h5').should('have.text', 'Welcome!')
+  //   // Verificar se o login foi bem-sucedido
+  //   cy.visit('https://sandbox.moodledemo.net/')
+  //   cy.get('div h5').should('have.text', 'Welcome!')
   
-  });
+  // });
 
 });

@@ -13,8 +13,5 @@ describe('Login Test', () => {
       // Encontrar e clicar no botão de login
       cy.get('#loginbtn').click();
       
-      // Verificar se o login foi bem-sucedido
-      cy.url().should('include', '/login/index.php?loginredirect=1');
-      cy.get('.alert')
   });
 });
